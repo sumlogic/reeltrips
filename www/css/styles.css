@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 114px;
+}
+#LayoutDivBody {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 400px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	padding: 10px;
+}
+#LayoutDivFooter {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 194px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+#loginBar {
+	text-align: right;
+	z-index: 2;
+	padding-top: 15px;
+	color: #1e5964;
+	height: 75px;
+	background-image: url(../images/logo.300.png);
+	background-repeat: no-repeat;
+	background-position: left 15px;
+}
+
+a {
+	color: #1e5964;
+	text-decoration: none;
+}
+a:visited {
+	color: #1e5964;
+}
+
+
+
+#LayoutDivSecondaryNav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	height: 39px;
+	color: #FFF;
+	filter: Shadow(Color=#000000, Direction=90);
+	font-family: GeosansLight;
+	font-size: 16px;
+	text-transform: capitalize;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+}
+#LayoutDivSecondaryNav span {
+	text-decoration: underline;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+.block{
+	height: 75px;
+	float: left;
+	margin-right: 3px;
+
+
+#logoContainer {
+	padding-top: 15px;
+}

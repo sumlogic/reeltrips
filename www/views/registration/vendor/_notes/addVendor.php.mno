@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_vendors" value="name:id;datatype:int,name:name;datatype:string,name:location_id;datatype:int,name:company_address;datatype:string,name:billing_address;datatype:string,name:email;datatype:string,name:phone;datatype:string,name:website;datatype:string,name:contact_name;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:region_name;datatype:string,name:region_id;datatype:int" />
+</info>

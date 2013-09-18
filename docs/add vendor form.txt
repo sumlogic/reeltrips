@@ -1,0 +1,15 @@
+charter name
+vender mailing address
+billing address
+billing contact 
+email 
+phone number
+website
+
+
+capt name
+cost gaurd capt numb
+vessle address
+vessle locations Ie marina
+Max number of occupants per vessle
+type of fishing vessle capable of
